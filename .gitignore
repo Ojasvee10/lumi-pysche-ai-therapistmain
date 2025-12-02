@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+.next/
+out/
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+*.swp
+
+# IDE
+*.iml
+
+# OS
+Thumbs.db
+
+# Locks (commit these if you prefer exact versions)
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
